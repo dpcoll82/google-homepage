@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <title>google-homepage</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="google-homepage">
+  <meta name="author" content="DPC">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
@@ -16,25 +16,42 @@
 </head>
 
 <body>
-	<div id="main">
-		<div id="logo">
-			<img src="img/logo11w.png">
-		</div>
+	<div id="navbar">
+		<ul>
+			<li><a href="#">+Daniel</a></li>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#"><img src="img/grid.png"></a></li>
+			<li><a href="#"><img src="img/bell.png"></a></li>
+		</ul>
+	</div>	
 	
-		<div id="searchBox">
-			<form class="searchForm">
-				<div class="inputBox">
-					<input type="text" name="searchField" height="30px" maxlength="200px">
-				</div>
-				<div class="buttons">
-					<button class="submit" type="submit">Google Search</button>
-					<button class="submit" type="submit">I'm Feeling Lucky</button>
-				</div>
-				
-			</form>
-		</div>
+	<div id="content">
+		<img src="img/logo11w.png">
+		
+		<form class="searchForm">
+			<div class="inputBox">
+				<input type="text" name="searchField" height="30px" maxlength="200px">
+			</div>
+			<div class="buttons">
+				<button class="submit" type="submit">Google Search</button>
+				<button class="submit" type="submit">I'm Feeling Lucky</button>
+			</div>
+		</form>
 	</div>
-
+		
+	<footer>
+		<ul class="leftLinks">
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<ul class="rightLinks">
+			<li><a href="#"><strong>Updated </strong>Privacy &amp; Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>
+	</footer>
+		
   <script src="js/scripts.js"></script>
 </body>
 </html>
